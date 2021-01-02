@@ -1,0 +1,6 @@
+2021-01-02 16:10:50,316 - __main__ - INFO - Iteration number is28 - 48 - f1
+2021-01-02 16:10:50,473 - __main__ - INFO - This is info message - 42 - f1
+2021-01-02 16:10:50,535 - __main__ - ERROR - This is error message - 44 - f1
+2021-01-02 16:10:50,566 - __main__ - WARNING - This is warning message - 45 - f1
+2021-01-02 16:10:50,644 - __main__ - CRITICAL - This is critical message - 46 - f1
+2021-01-02 16:10:52,676 - __main__ - INFO - Iteration number is29 - 48 - f1

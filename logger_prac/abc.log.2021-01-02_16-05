@@ -1,0 +1,4 @@
+2021-01-02 16:05:54,105 - __main__ - INFO - This is info message - 42 - f1
+2021-01-02 16:05:54,261 - __main__ - ERROR - This is error message - 44 - f1
+2021-01-02 16:05:54,276 - __main__ - WARNING - This is warning message - 45 - f1
+2021-01-02 16:05:54,276 - __main__ - CRITICAL - This is critical message - 46 - f1

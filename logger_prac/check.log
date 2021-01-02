@@ -1,0 +1,8 @@
+s2021-01-02 14:14:52,272 : root : INFO : This is info message-20
+s2021-01-02 14:14:52,272 : root : WARNING : This is warning message-30
+s2021-01-02 14:14:52,272 : root : CRITICAL : This is critical message-50
+s2021-01-02 14:14:52,288 : root : ERROR : This is error message-40
+2021-01-02 14:15:28,474 : root : INFO : This is info message-20
+2021-01-02 14:15:28,474 : root : WARNING : This is warning message-30
+2021-01-02 14:15:28,474 : root : CRITICAL : This is critical message-50
+2021-01-02 14:15:28,474 : root : ERROR : This is error message-40

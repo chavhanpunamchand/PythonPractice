@@ -1,5 +1,5 @@
 import logging
-from python_sample.db_util import get_connection
+from py_logging.python_sample.db_util import get_connection
 '''
 CREATE TABLE APP_LOGS(
     log_id int,

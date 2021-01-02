@@ -1,10 +1,10 @@
-from python_sample.app_queries import *
-from python_sample.product_info import Product
-from python_sample.db_util import get_connection,close_resources
+from py_logging.python_sample.app_queries import *
+from py_logging.python_sample.product_info import Product
+from py_logging.python_sample.db_util import get_connection,close_resources
 import logging
                 #level --> WARNING
 logging.basicConfig(filename='productservice.log',filemode='a',level=logging.INFO,
-                    format='s%(asctime)s - %(name)s - %(levelname)s - %(message)')
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 #def m1():
 #    logging.info('This is info message-20')
@@ -133,6 +133,12 @@ class ProductServiceImpl:
             close_resources(conn, cursor)
 
 
+
+if __name__ == '__main__':
+    pr = Product(103, "Watch", 20, "fastrack", 2000)
+    prod_service=ProductServiceImpl()
+    # prod_service.create_product_table()
+    prod_service.add_product(pr)
 
 # dev       -->             qa              --->      uat                   --> prod
 

@@ -15,3 +15,7 @@ class Product:
         return f'''{self.__dict__}'''
 
 
+if __name__ == '__main__':
+    pr=Product(101,"besan",10,"chhaya",110)
+    print(pr)
+

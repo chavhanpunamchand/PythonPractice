@@ -1,0 +1,40 @@
+2021-01-02 14:51:58,687 - __main__ - INFO - Iteration NUmber :57 - 48 - function_one
+2021-01-02 14:51:58,703 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:51:58,703 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:51:58,718 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:51:58,718 - __main__ - ERROR - This is error message-40 - 46 - function_one
+2021-01-02 14:52:00,734 - __main__ - INFO - Iteration NUmber :58 - 48 - function_one
+2021-01-02 14:52:00,734 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:52:00,734 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:52:00,750 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:52:00,765 - __main__ - ERROR - This is error message-40 - 46 - function_one
+2021-01-02 14:52:02,765 - __main__ - INFO - Iteration NUmber :59 - 48 - function_one
+2021-01-02 14:52:02,765 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:52:02,765 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:52:02,781 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:52:02,781 - __main__ - ERROR - This is error message-40 - 46 - function_one
+2021-01-02 14:52:04,797 - __main__ - INFO - Iteration NUmber :60 - 48 - function_one
+2021-01-02 14:52:04,797 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:52:04,812 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:52:04,812 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:52:04,828 - __main__ - ERROR - This is error message-40 - 46 - function_one
+2021-01-02 14:52:06,828 - __main__ - INFO - Iteration NUmber :61 - 48 - function_one
+2021-01-02 14:52:06,828 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:52:06,843 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:52:06,859 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:52:06,859 - __main__ - ERROR - This is error message-40 - 46 - function_one
+2021-01-02 14:52:08,859 - __main__ - INFO - Iteration NUmber :62 - 48 - function_one
+2021-01-02 14:52:08,859 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:52:08,875 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:52:08,890 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:52:08,890 - __main__ - ERROR - This is error message-40 - 46 - function_one
+2021-01-02 14:52:10,890 - __main__ - INFO - Iteration NUmber :63 - 48 - function_one
+2021-01-02 14:52:10,890 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:52:10,890 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:52:10,906 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:52:10,906 - __main__ - ERROR - This is error message-40 - 46 - function_one
+2021-01-02 14:52:12,921 - __main__ - INFO - Iteration NUmber :64 - 48 - function_one
+2021-01-02 14:52:12,921 - __main__ - INFO - This is info message-20 - 42 - function_one
+2021-01-02 14:52:12,921 - __main__ - WARNING - This is warning message-30 - 44 - function_one
+2021-01-02 14:52:12,937 - __main__ - CRITICAL - This is critical message-50 - 45 - function_one
+2021-01-02 14:52:12,937 - __main__ - ERROR - This is error message-40 - 46 - function_one

@@ -1,7 +1,7 @@
 import logging
 from logging.handlers import TimedRotatingFileHandler
 #logging.basicConfig(filename='sample.log',filemode='a', level=logging.INFO,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(lineno)d - %(funcName)s')
-from python_sample.mydbhandler import MyDBHandler       # custom handler--
+from py_logging.python_sample.mydbhandler import MyDBHandler       # custom handler--
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)   # generic --> for medium
 
@@ -38,7 +38,7 @@ import time
 
 def function_one():
 
-  for item in range(1000000):
+  for item in range(10):
         logger.info('This is info message-20')
         logger.debug('This is debug Message-10')
         logger.warning('This is warning message-30')

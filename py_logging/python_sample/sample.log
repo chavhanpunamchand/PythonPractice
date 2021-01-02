@@ -1,0 +1,24 @@
+INFO:root:This is info message-20
+WARNING:root:This is warning message-30
+CRITICAL:root:This is critical message-50
+ERROR:root:This is error message-40
+2021-01-02 10:03:50,683 - root - INFO - This is info message-20 - 8 - function_one
+2021-01-02 10:03:50,683 - root - WARNING - This is warning message-30 - 10 - function_one
+2021-01-02 10:03:50,683 - root - CRITICAL - This is critical message-50 - 11 - function_one
+2021-01-02 10:03:50,683 - root - ERROR - This is error message-40 - 12 - function_one
+2021-01-02 10:03:54,123 - root - INFO - This is info message-20 - 8 - function_one
+2021-01-02 10:03:54,124 - root - WARNING - This is warning message-30 - 10 - function_one
+2021-01-02 10:03:54,124 - root - CRITICAL - This is critical message-50 - 11 - function_one
+2021-01-02 10:03:54,124 - root - ERROR - This is error message-40 - 12 - function_one
+2021-01-02 10:03:55,074 - root - INFO - This is info message-20 - 8 - function_one
+2021-01-02 10:03:55,075 - root - WARNING - This is warning message-30 - 10 - function_one
+2021-01-02 10:03:55,075 - root - CRITICAL - This is critical message-50 - 11 - function_one
+2021-01-02 10:03:55,075 - root - ERROR - This is error message-40 - 12 - function_one
+2021-01-02 10:03:55,746 - root - INFO - This is info message-20 - 8 - function_one
+2021-01-02 10:03:55,746 - root - WARNING - This is warning message-30 - 10 - function_one
+2021-01-02 10:03:55,746 - root - CRITICAL - This is critical message-50 - 11 - function_one
+2021-01-02 10:03:55,746 - root - ERROR - This is error message-40 - 12 - function_one
+2021-01-02 10:03:56,442 - root - INFO - This is info message-20 - 8 - function_one
+2021-01-02 10:03:56,442 - root - WARNING - This is warning message-30 - 10 - function_one
+2021-01-02 10:03:56,443 - root - CRITICAL - This is critical message-50 - 11 - function_one
+2021-01-02 10:03:56,443 - root - ERROR - This is error message-40 - 12 - function_one

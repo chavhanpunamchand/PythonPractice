@@ -1,0 +1,50 @@
+WARNING:root:This is warning message-30
+CRITICAL:root:This is critical message-50
+ERROR:root:This is error message-40
+INFO:root:This is info message-20
+WARNING:root:This is warning message-30
+CRITICAL:root:This is critical message-50
+ERROR:root:This is error message-40
+2021-01-02 09:36:38,826 - root - INFO - This is info message-20
+2021-01-02 09:36:38,826 - root - WARNING - This is warning message-30
+2021-01-02 09:36:38,826 - root - CRITICAL - This is critical message-50
+2021-01-02 09:36:38,826 - root - ERROR - This is error message-40
+2021-01-02 09:36:41,296 - root - INFO - This is info message-20
+2021-01-02 09:36:41,297 - root - WARNING - This is warning message-30
+2021-01-02 09:36:41,297 - root - CRITICAL - This is critical message-50
+2021-01-02 09:36:41,298 - root - ERROR - This is error message-40
+2021-01-02 09:37:06,591 - root - INFO - This is info message-20
+2021-01-02 09:37:06,592 - root - WARNING - This is warning message-30
+2021-01-02 09:37:06,592 - root - CRITICAL - This is critical message-50
+2021-01-02 09:37:06,592 - root - ERROR - This is error message-40
+2021-01-02 09:42:58,745 - root - INFO - 
+        create table product_info (
+            prod_id int,,
+            prod_name varchar(30),
+            prod_qty int,
+            prod_price float,
+            prod_ven varchar(30),
+            primary key(prod_id)
+        )
+
+2021-01-02 09:42:58,755 - root - ERROR - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',\n            prod_name varchar(30),\n            prod_qty int,\n            prod_' at line 2")
+2021-01-02 09:43:59,068 - root - INFO - 
+        create table product_info (
+            prod_id int,
+            prod_name varchar(30),
+            prod_qty int,
+            prod_price float,
+            prod_ven varchar(30),
+            primary key(prod_id)
+        )
+
+2021-01-02 09:45:09,220 - Yogesh - INFO - Inside Add Product method
+2021-01-02 09:45:09,220 - Yogesh - INFO - SELECT * FROM PRODUCT_INFO WHERE PROD_ID =101
+2021-01-02 09:45:09,236 - Yogesh - INFO - INSERT INTO PRODUCT_INFO VALUES(101,'AAAA',23,2993.34,'FLip')
+2021-01-02 09:45:20,150 - Yogesh - INFO - Inside Add Product method
+2021-01-02 09:45:20,150 - Yogesh - INFO - SELECT * FROM PRODUCT_INFO WHERE PROD_ID =101
+2021-01-02 09:45:20,160 - Yogesh - WARNING - Product WIth given Id already Present
+m1 - 10 - 2021-01-02 09:50:19,039 - 1609561219.039240 - productservice - INFO - This is info message-20
+m1 - 12 - 2021-01-02 09:50:19,039 - 1609561219.039240 - productservice - WARNING - This is warning message-30
+m1 - 13 - 2021-01-02 09:50:19,039 - 1609561219.039240 - productservice - CRITICAL - This is critical message-50
+m1 - 14 - 2021-01-02 09:50:19,039 - 1609561219.039240 - productservice - ERROR - This is error message-40

@@ -1,0 +1,165 @@
+django -implicitly provides few application-- along with--> commands
+
+
+[auth] --> application --->
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver
+
+-----------------------------
+
+
+
+
+	Will continue With Django Framework-->
+				Flask --> One of the web Framework--
+						Django -
+
+	> we need to create virtual env
+	> activate env
+	> install django framework-	3.x--> 2.x
+
+
+
+>pip install virtualenv
+>virtualenv django==2.2.7
+>virtualenv djenv
+>djenv\Scripts\activate
+(djenv)>django-admin --version
+
+(djenv)>django-admin startproject sampleproj
+
+sampleproj*--> root directory
+	sampleproj*--> project name
+		init.py --> it's a blank python file-- which tells django-- this is not a normal folder-- its a package -- this is just a convention to represent--> not a folder but a package/directory--in django's context
+		wsgi.py --> web server gateway interface-->represents the configuration part for WSGI server
+					Flask--> wsgi -- > 5000
+					Django --wsgi ---> 8000-- lightweight servers which comes along with
+							both webframeworks-- flask as well as with django
+		settings.py--> application configurations-->
+						multiple lang--- application can
+						multilang support-->
+		urls.py -->	which represents-- entire application urls.. routes-- will be present in urls
+					request mapping to the business functions -- routes
+	manage.py	---> this is command line utility to manage the django application
+
+		app - instance of flask--
+Flask -- > @app.route("uri",methods)--> which fuction to call-->
+		it's request mapping with server code..
+
+
+>Flask--> database integration--> debug--> multiple databases--> entire configuration-->
+		we as developer -- decides-- where to keep those files..
+
+
+Django -- is used for --> web application developement-->
+		in order to run web application-- we need to have -- webserver/application-->
+		in order host-- any of web application -- we must a server-->
+
+Desktop --> install
+Webapp -- we need to deploy-- deployements on servers--
+
+
+as we have created projects in flask-->
+		in which-- developer is responsible to create folder structure,
+		however---> in django---> command line utitity provides project structure
+
+
+	django-applications--- are well structured as compared to flask applications---
+
+(djenv)>
+
+
+project => multiple application[modules/part of projects/units]
+
+Bank --> application-- would accounting/loan/insurance
+sampleproj --> unit/modules--
+		sampleproj--> manage.py
+
+
+
+make sure to install--> django---> wsgi--- orm[djangodb]
+						mysqlclient -- make sure to install it thru-- whl...file-- wheel file..
+
+
+
+settings -->
+		1. installed apps --> 6 bydefault--[to make developement faster]-- we need register our application
+		2. database configuration --> to have orm support-- to integrate with database-- db config
+									make sure we have installed db connector lib
+		3. middlewares --> this is for request response pre/post processing -- before handing it over
+							to server[request] and client[response]
+							request- --> top to bottom
+							response --> bottom to top
+		4. allowed hosts --> webapplication -- internet[publically]-- interanet[within ]
+		5. password validators -> admin app-- implicit-- login-- facility-- password--> business norms
+		6. debug property --  -- to accept changes --> local/qa -> true-- production -- false
+		7. templates  -- > to represent- User Interface--
+		8. multilang support properties --> locale--> i18--
+		9. static file location --> css/js-->
+		10. app-route file location --> request mappings to the business functions
+
+
+
+>manage.py startapplication demo
+
+	sampleproj* --> root folder
+		manage.py --> command line utility to manage django project thru cmd line
+		sampleproj* --  - project name- project directory --> at the same level we have -- manage.py
+			init.py -- its blank file-- to represent-- it's not a normal folder bt director/package--
+			wsgi.py -- server configuration
+			settings.py -- application configuration
+			urls.py -  app routes configuration
+
+		demo* -- application --1 -- module1
+			init.py -- its blank file-- to represent-- it's not a normal folder bt director/package--
+			view.py -- to hold business logic--> developer needs to write business logic here
+			test.py --> to write white box test cases-- unit test cases-->
+						in order to write test cases-- which frameworks --pytest/unitest/nose-- libs
+
+			admin.py	--> to manage-- admin panel-- which is implicitly provided by django web framework
+			app.py
+
+			models.py --> to hold orm--
+
+			migrations*  --> it holds intermediate file--> model --intermediate-->	db
+				init.py -->
+
+
+
+

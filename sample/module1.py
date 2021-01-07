@@ -1,5 +1,5 @@
 
-
+print(__name__)
 x=888 # varible
 
 def add(a,b):
